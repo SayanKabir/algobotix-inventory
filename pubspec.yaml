@@ -1,0 +1,55 @@
+name: algobotix_inventory
+description: "Inventory Management System for AlgoBotix Assignment."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- Core Logic & Storage ---
+  # Hive for local storage
+  hive:
+  hive_flutter:
+
+  # Shared Preferences for username persistence
+  shared_preferences:
+
+  # State Management
+  provider:
+
+  # Utilities
+  intl:
+  uuid:
+  path_provider:
+
+  # Image selection
+  image_picker:
+
+  # Typography
+  google_fonts:
+
+  # Modern Icons
+  lucide_icons:
+  cupertino_icons:
+
+  # --- Bonus Features ---
+  # QR Code Scanning
+  mobile_scanner:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Code generation for Hive TypeAdapters
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.8
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
